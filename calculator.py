@@ -86,7 +86,7 @@ class Calculator:
         # bg="#0668E1" 設定按鈕背景顏色為藍色
         # fg="white" 設定按鈕文字顏色為白色
         button = tk.Button(self.main_frame, text=text, width=5, height=2, 
-                          font=('Arial', 25), bg="#0668E1", fg="white",
+                          font=('Arial', 30), bg="#0668E1", fg="white",
                           command=lambda t=text: self.button_click(t))
         button.grid(row=row, column=col, padx=5, pady=5)
     def button_click(self, text):
