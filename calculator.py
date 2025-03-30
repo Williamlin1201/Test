@@ -68,7 +68,7 @@ class Calculator:
             
             # 調整圖片大小，保持比例
             width, height = original_image.size
-            new_height = 400  # 設定新高度
+            new_height = 300  # 設定新高度
             new_width = int(width * (new_height / height))
             resized_image = original_image.resize((new_width, new_height), Image.LANCZOS)
             
