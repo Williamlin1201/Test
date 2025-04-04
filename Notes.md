@@ -22,3 +22,7 @@ Windsurf儲存(本機檔案更改)->
 -> 提交(正式進入Git版本控制系統)
 
 
+❗分支：
+「master」通常是Git專案的主要分支（有些專案會用「main」）
+「origin」是遠端儲存庫的預設名稱（可能是GitHub或其他Git服務）
+「origin/master」表示遠端儲存庫中的master分支
